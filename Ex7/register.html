@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration</title>
+  </head>
+  <body>
+    <h1>Registration</h1>
+    <form action="register.php" method="POST">
+      Username: <input type="text" name="username" required /><br />
+      Password: <input type="password" name="password" required /><br />
+      Name: <input type="text" name="name" required /><br />
+      Email: <input type="email" name="email" required /><br />
+      Role:
+      <select name="role">
+        <option value="employee">Employee</option>
+        <option value="admin">Admin</option>
+      </select>
+      <br />
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
